@@ -15,6 +15,7 @@ const manifest = {
   description: "Polskie napisy anime z AnimeSub.info",
   resources: ["subtitles"],
   types: ["series", "movie"],
+  catalogs: [],
   idPrefixes: ["tt", "kitsu:", "tmdb:"],
   logo: "https://www.google.com/s2/favicons?domain=animesub.info&sz=256"
 };
