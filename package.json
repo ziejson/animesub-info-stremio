@@ -1,18 +1,19 @@
 {
   "name": "animesub-info-stremio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Polish AnimeSub.info subtitle addon for Stremio",
   "main": "addon.js",
   "scripts": {
-    "start": "node addon.js",
-    "check": "node --check addon.js"
+    "start": "node addon.js"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
-    "cheerio": "^1.1.2"
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0",
+    "unzipper": "^0.12.3"
   }
 }
