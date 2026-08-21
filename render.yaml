@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: animesub-info-stremio
+    runtime: docker
+    plan: free
+    healthCheckPath: /manifest.json
+    envVars:
+      - key: ANIMESUB_BASE
+        value: https://animesub.info
